@@ -37,7 +37,7 @@ def JogoGeral():
             chances -= 1
 
         if chances ==1:
-            print(dicas)
+            print(dicas())
 
         if chances == 0 or ganhou:
             print(f"Suas tentativas acabaram! A palavra era: {palavra_secreta}")
